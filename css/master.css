@@ -1,0 +1,276 @@
+*{
+  margin: 0;padding: 0;
+  text-decoration: none;
+}
+body{
+  font-family: sans-serif;
+  color: #29303b;
+  background: rgba(0,0,0,.03);
+}
+header{
+  background: #f7f8fa;
+  padding: 10px;
+  box-shadow: 0 0 1px 1px rgb(20 23 28 / 10%), 0 3px 1px 0 rgb(20 23 28 / 10%);
+  position: relative;
+  z-index: 99;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo{
+  color: #000;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: cursive;
+}
+.logo span{
+  color: purple;
+  font-size: 30px;
+  font-weight: bold;
+}
+.courses{
+  border: 2px solid #ddd;
+  padding: 5px;
+}
+.courses:hover{
+    background-color: #ddd;
+}
+.courses a{
+  color: #666;
+  font-size: 15px;
+}
+.grid{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.grid img{
+  width: 18px;
+}
+
+/*Search*/
+.search{
+
+}
+.search input{
+  width: 600px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background: #ddd;
+}
+.menu{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu nav ul li{
+  display: inline-block;
+}
+.menu nav ul li a{
+  color: #686f7a;
+  border: 1px solid transparent;
+  font-size: 14px;
+  width: 100%;
+  border-radius: 0;
+  min-width: 100px;
+  padding: 10px;
+}
+.menu nav ul li a:hover{
+  background-color: #ddd;
+}
+.menu .img{
+  padding: 5px;
+  margin: 0px 5px;
+}
+.menu .img:hover{
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  background-color: #ddd;
+}
+.user{
+  margin: 0px 20px;
+}
+.user .login{
+  border: 1px solid #ec5252d1;
+  width: 300px;
+  padding: 10px;
+  color: #686f7a;
+  background-color: #fff;
+  border-radius: 2px;
+}
+.user .signup{
+  border: 1px solid #ec5252d1;
+  background-color: #ec5252;
+  width: 300px;
+  padding: 10px;
+  color: #fff;
+  border-radius: 2px;
+}
+.user .login:hover{
+  	background: #ddd;
+}
+.user .signup:hover{
+    background: #ec5252d1;
+}
+/*Banner*/
+.banner{
+    background-image: url("../course-img/home-banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 170px 0 130px;
+    color: #fff;
+}
+.container-banner{
+  width: 500px;
+  margin: 0px 25px;
+  padding: 0px 2px;
+}
+.container-banner .row{
+  /*Future multi-row*/
+}
+.container-banner h2{
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 10px;
+    text-shadow: 0 2px 4px rgb(41 48 59 / 55%);
+}
+.container-banner p{
+    font-size: 18px;
+    line-height: 34px;
+    margin-bottom: 30px;
+    text-shadow: 0 2px 4px rgb(41 48 59 / 55%);
+}
+.container-banner .row input{
+  width: 500px;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  padding: 10px 10px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+/*Facts*/
+.fact{
+    background: linear-gradient(-45deg,#ec5252,#6e1a52);
+    color: #ddd;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+.fact .row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.fact .row .sec{
+  width: 33.3%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.fact .row .text-box{
+
+}
+.fact .row .sec img{
+  width: 30px;
+}
+.fact .row .sec h4{
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.fact .row .sec p{
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+/*Top-Courses*/
+.Top-Courses{
+  margin: 20px 10px;
+}
+.Top-Courses .top-skill,
+.Top-Courses .latest-skill{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Top-Courses .sub{
+  width: 253px;
+  border: 2px solid #ccc;
+  margin: 0px 10px;
+}
+.Top-Courses .sub .skill-img img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+
+}
+.Top-Courses .sub .skill-details{
+  padding: 10px;
+}
+.Top-Courses .sub .skill-details h5{
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.Top-Courses .sub .skill-details p{
+  font-size: 12px;
+}
+.Top-Courses .sub .rate-price{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.Top-courses .row{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 5px;
+}
+
+.Top-Courses h2{
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #505763;
+  margin: 0 0 10px;
+}
+
+/*footer*/
+footer{
+  height: 100px;
+  background: #ddd;
+  border-bottom: 7px solid #ec5252;
+}
+footer nav{
+  padding: 15px;
+  color: #666;
+}
+footer nav .logo a{
+  color: #000;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: cursive;
+}
+footer nav .logo span{
+  color: purple;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+footer nav ul li{
+  display: inline-block;
+}
+footer nav ul li a{
+  color: #007bff;
+  padding: 10px;
+  font-size: 13px;
+}
+footer nav ul li a:hover{
+  color: #007791;
+}
